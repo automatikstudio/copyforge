@@ -30,6 +30,21 @@ export const metadata: Metadata = {
     "Amazon",
     "Etsy",
   ],
+  openGraph: {
+    title: "CopyForge — AI Product Descriptions That Sell",
+    description: "Generate SEO-optimized product descriptions, bullet points, and ad copy at scale.",
+    type: "website",
+    siteName: "CopyForge",
+    url: "https://copyforge-seven.vercel.app",
+    images: [{ url: "https://copyforge-seven.vercel.app/og-image.png", width: 1200, height: 630, alt: "CopyForge — AI Product Descriptions That Sell" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CopyForge — AI Product Descriptions That Sell",
+    description: "Generate SEO-optimized product descriptions, bullet points, and ad copy at scale.",
+    creator: "@automatikstudio",
+    images: ["https://copyforge-seven.vercel.app/og-image.png"],
+  },
   icons: {
     icon: "/favicon.svg",
   },
